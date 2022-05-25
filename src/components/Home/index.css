@@ -1,0 +1,40 @@
+.bg-container {
+  background-color: #eef4f7;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.travel-heading {
+  border-bottom: 3px solid #52bbf0;
+  padding-bottom: 10px;
+  color: #334155;
+  font-family: 'Roboto';
+  text-align: center;
+  width: 20%px;
+  align-self: center;
+}
+
+.travel-container {
+  align-self: center;
+}
+
+.travel-ul {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+
+.travel-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
